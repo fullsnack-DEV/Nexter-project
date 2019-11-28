@@ -5,6 +5,10 @@
 
 .heading-1 {
   @extend %heading;
+  font-size: 4.5rem;
+  color: $col-grey-light-1;
+  font-family: $font-primary;
+  line-height: 1;
 }
 .heading-2 {
   @extend %heading;
@@ -21,6 +25,8 @@
 .heading-3 {
   @extend %heading;
   font-style: 1.6rem;
+
+  font-family: $font-primary;
   text-transform: uppercase;
   color: $col-primary;
 }
